@@ -1,0 +1,153 @@
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header */
+.header {
+    background: #FF681F; /* Orange background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    
+    
+}
+
+.nav-list li {
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-list li:hover{
+    background-color: #FFA500;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Styling for the contact section */
+.contact {
+    background: #FF681F; /* Orange background color */
+    color: #000000;
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Playpen Sans', cursive;
+    margin: 20px 0;
+}
+
+.contact h2 {
+    font-size: 28px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+/* Styling for the about section */
+.about {
+    background: #FF681F; /* Orange background color */
+    color: #000000;
+    padding: 40px 0;
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about h2 {
+    font-size: 28px;
+}
+
+.about p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+/* Styling for the mentorship form section */
+.mentorship-form {
+    background: #f7f7f7;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: 'Playpen Sans', cursive;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.mentorship-form h2 {
+    color: #FF681F;
+    
+}
+
+.mentorship-form p {
+    
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #FFA500; /* Orange border on focus */
+}
+
+.mentorship-form button {
+    background: #FF681F;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+.mentorship-form button:hover {
+    background: #FF8C00;
+}
+
+/* Styling for the footer */
+.footer {
+    background: #FF681F; /* Orange background color */
+    text-align: center;
+    padding: 10px ;
+    margin-top: 10px;
+}
+
+.footer p {
+    color: #000000;
+}
