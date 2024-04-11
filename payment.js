@@ -30,6 +30,6 @@ function checkout() {
       event.preventDefault(); // Prevent form submission
       alert("Payment successful!"); // Dummy success message
       closePayment(); // Close the payment modal
-      window.location.href = "home.html";
+      window.location.href = "index.html";
     });
 

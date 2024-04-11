@@ -142,7 +142,7 @@ footer {
 }
 /* ---------------------------------------------------------------------------------------- */
 .intro {
-    background: url('/site/bgc.jpg') no-repeat center center;
+    background: url('/images/site/bgc.jpg') no-repeat center center;
     background-size: 1500px 600px;
     text-align: center;
     color: #030303;
